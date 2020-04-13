@@ -1,0 +1,312 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: white;
+    border-bottom: 1.5px solid #fafafa;
+    height: 60px;
+}
+
+.main-feed {
+    height: 1200px;
+}
+
+.img-text {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.img-logo {
+    border-right: 1px solid black;
+    width: 30px;
+    padding-right: 10px;
+}
+
+.text-logo {
+    width: 85px;
+    padding-left: 10px;
+}
+
+.btn {
+    margin: 17px 0px;
+    background-color: #fafafa;
+    border: 1px solid #BDBDBD;
+    width: 200px;
+    border-radius: 3px;
+    color: #999999;
+}
+
+.typeComment {
+    position: relative;
+}
+
+.commentBtn {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin: -30px 5px 0px 670px;
+}
+
+.search {
+    width: 20px;
+}
+
+.heart {
+    width: 20px;
+    margin: 0px 20px;
+}
+
+.profile {
+    width: 20px;
+}
+
+.feeds, .right1, .right2 {
+    background-color: white;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+}
+
+.storyEvery{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.feeds {
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    margin: 60px 0px 0px 380px;
+}
+
+.right1 {
+    width: 340px;
+    height: 200px;
+    margin: 20px 0px 0px 0px;
+}
+
+.right2 {
+    width: 340px;
+    height: 200px;
+    margin: 20px 0px 0px 0px;
+}
+
+.p2 {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    margin: 20px 300px 0px 0px;
+    color: #BDBDBD;
+    font-size: 15px;
+}
+
+.main-page {
+    width: 718px;
+}
+
+
+.leftTopIcons {
+    display: flex;
+    margin: 18px 0px;
+}
+
+.rightTopIcons {
+    margin: 18px 0px;
+}
+
+.centerTopIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.my-img {
+    border-radius: 100%;
+    width: 60px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.three-dot {
+    margin-left: 450px;
+}
+
+.bottom-icons {
+    display: flex;
+    padding: 5px;
+}
+
+.main-heart {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.main-talk {
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.share {
+    width: 30px;
+    height: 30px;
+}
+
+.bookmark {
+    margin-left: 560px;
+    width: 30px;
+    height: 30px;
+}
+
+.top-right {
+    display: flex;
+    flex-direction: row;
+    margin: 65px 0 0 0;
+    width: 200px;
+    height: auto;
+}
+
+.img2 {
+    border-radius: 100px;
+    width: 50px;
+}
+
+.top-right2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 10px;
+}
+
+.story, .every, .recom {
+    display: inline-block;
+}
+
+.story, .recom {
+    margin: 5px 15px;
+}
+
+.every {
+    margin: 5px 15px;
+}
+
+.img3 {
+    display: block;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin: 5px 15px;
+}
+
+.right3 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.img4 {
+    display: block;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin: 5px 15px;
+}
+
+.right4 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.p1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.help-msg {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: #043667;
+    background-color: white;
+    font-size: 12px;
+}
+
+.follow {
+    margin-left: 41px;
+    color: #1b91fa;
+    font-weight: bold;
+}
+
+.commentPlus {
+    margin: 10px 15px;
+}
+
+.commentUser, .every {
+    font-weight: bold;
+}
+
+.story, .time {
+    color: #999999;
+    font-weight: bold;
+}
+
+.commentBox {
+    position: relative;
+    width: 718px;
+    height: 40px;
+    border-top: 1px solid #BDBDBD;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    margin: 55px 0 0 0;
+    color: #999999;
+    font-weight: bold;
+}
+
+button {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: -60px;
+    border: white;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    color: #c5e1fa;
+}
+
+.wecode {
+    font-weight: bold;
+    color: #999999;
+}
+
+.wecode-bootcamp {
+    font-weight: bold;
+}
+
+.commentund, .wecode {
+    font-size: 15px;
+}
+
+.right-all {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedMainRight {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainRight {
+    margin-left: 40px;
+}
+
+.top-icons {
+    display: flex;
+    align-items: center;
+}
+
+.comment {
+    margin-left: 5px;
+}
